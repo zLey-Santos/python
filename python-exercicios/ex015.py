@@ -1,7 +1,7 @@
-print(' O valor da diária do veiculo é de R$60,00 \n '
-      'O valor por quilometro rodado é de R$0,15')
+print(' O valor da diária de um veículo é de R$60,00 \n '
+      'O valor por quilômetro rodado é de R$0,15')
 print('-' * 20)
-carro_dia = int(input('Quantos dias o veiculo foi alocado? '))
+carro_dia = int(input('Quantos dias o veículo foi alocado? '))
 km = float(input('Quantos Km foram rodados? '))
 
 val_dia = carro_dia * 60
