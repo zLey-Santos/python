@@ -1,0 +1,45 @@
+Seno, Cosseno e Tangente em um Triângulo Retângulo:
+Considere um triângulo retângulo, que possui um ângulo reto (90 graus) e dois ângulos agudos. Os lados do triângulo são conhecidos como hipotenusa,
+cateto adjacente e cateto oposto ao ângulo em questão.
+
+Hipotenusa: O lado oposto ao ângulo reto, o mais longo do triângulo.
+Cateto Adjacente: O lado que está adjacente (próximo) ao ângulo em consideração e ao ângulo reto.
+Cateto Oposto: O lado oposto ao ângulo em consideração.
+Fórmulas:
+Seno ((\sin(\theta))):
+
+(\sin(\theta) = \frac{\text{Cateto Oposto}}{\text{Hipotenusa}})
+Cosseno ((\cos(\theta))):
+
+(\cos(\theta) = \frac{\text{Cateto Adjacente}}{\text{Hipotenusa}})
+Tangente ((\tan(\theta))):
+
+(\tan(\theta) = \frac{\text{Cateto Oposto}}{\text{Cateto Adjacente}})
+Passo a Passo de Como Aplicar:
+Identifique o Ângulo em Questão: Decida qual ângulo você está considerando no triângulo retângulo.
+
+Identifique os Lados do Triângulo:
+
+Hipotenusa: O lado mais longo do triângulo, em frente ao ângulo reto.
+Cateto Adjacente: O lado adjacente (próximo) ao ângulo em consideração e ao ângulo reto.
+Cateto Oposto: O lado oposto ao ângulo em consideração.
+Use a Fórmula Correta: Escolha a fórmula correta com base na informação que você tem e no que você está procurando (seno, cosseno ou tangente).
+
+Substitua os Valores: Substitua os valores dos lados do triângulo na fórmula apropriada.
+
+Calcule o Resultado: Realize a divisão conforme indicado na fórmula.
+
+Interprete o Resultado: O resultado que você obteve representa a razão entre os comprimentos dos lados do triângulo,
+conforme definido pela função trigonométrica escolhida.
+
+Lembre-se de que essas fórmulas são válidas apenas para triângulos retângulos. Se você tiver um triângulo qualquer,
+precisará usar outras relações trigonométricas, como a lei dos senos ou a lei dos cossenos.
+
+Seno (sen):
+  sen(θ) = oposto / hipotenusa
+
+Cosseno (cos):
+  cos(θ) = adjacente / hipotenusa
+
+Tangente (tan):
+  tan(θ) = oposto / adjacente
