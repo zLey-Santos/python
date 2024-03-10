@@ -8,7 +8,5 @@ pygame.mixer.music.load('ex021.mp3')
 # Reproduzir a música
 pygame.mixer.music.play()
 input()
-# Verificar se o arquivo foi carregado corretamente
-print("***__Arquivo Finalizado com sucesso!__***")
 # Aguardar o término da reprodução da música
 pygame.event.wait()
