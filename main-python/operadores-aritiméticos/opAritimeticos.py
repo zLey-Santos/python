@@ -1,9 +1,3 @@
-# Ordem de precedência dos Operadores Aritméticos:
-# 1- () Primeiro, tudo que está entre parênteses ().
-# 2- ** Segundo, tudo que for elevado à potência.
-# 3- *, /, //, % Conjunto de operadores: * Multiplicação, / Divisão, // Divisão inteira, % Módulo, Resto da divisão.
-# 4- +, - Por último, ficam os operadores de + Adição e - Subtração.
-
 oA1 = 5 + 3 * 2
 print(f'Resultado {oA1}')
 
