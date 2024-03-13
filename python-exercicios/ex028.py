@@ -7,7 +7,7 @@ print('-=-' * 20)
 
 num_cpu = randint(0, 5)
 num_user = int(input('O número escolhido foi: '))
-print('ANALISANDO...')
+print('\033[1;33;12mANALISANDO...\033[0;0;0m')
 sleep(2)
 if num_user > 5:
     print('Por favor, insira um número válido. ')
