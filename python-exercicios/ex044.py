@@ -1,3 +1,4 @@
+# Imprime o cabeçalho da loja
 print(f'{"=="*10}LOJA DO [z]{"=="*10}')
 
 # Solicita ao usuário que insira o preço das compras
@@ -17,13 +18,13 @@ opc = int(input('Qual a opção de pagamento: '))
 if opc == 1:
    # Calcula o desconto de 10% para pagamento à vista em dinheiro ou cheque
    avista = (preco * 10 / 100)
-   avista_desc = preco - (preco * 10 / 100)
+   avista_desc = preco - avista
    # Imprime o valor da compra com desconto
    print(f'O valor da sua compra é {preco:.2f}€ menos 10% desconto {avista:.2f}€ o valor final será de: {avista_desc:.2f}€.')
 elif opc == 2:
    # Calcula o desconto de 5% para pagamento à vista no cartão
    avista_cartao = (preco * 5 / 100)
-   cartao_desc = preco - (preco * 5 / 100)
+   cartao_desc = preco - avista_cartao
    # Imprime o valor da compra com desconto
    print(f'Em cartão o valor da sua compra é {preco:.2f}€ menos 5% de desconto {avista_cartao:.2f}€ '
          f'o valor final será de: {cartao_desc:.2f}€.')
@@ -38,7 +39,11 @@ elif opc == 4:
    # Calcula o valor das parcelas em 3x ou mais no cartão com juros de 20%
    juros = (preco * 20 / 100)
    cartao = (preco + juros) / parcelas
-   valor_final = preco + (preco * 20 / 100)
+   valor_final = preco + juros
    # Imprime o valor das parcelas com juros
    print(f'Em cartão o valor será parcelado em {parcelas}x de {cartao:.2f}€ com juros de 20% {juros:.2f}€ '
          f'valor final de {valor_final:.2f}€.')
+else:
+   # Mensagem de erro para opção de pagamento inválida
+   print('Opção inválida de pagamento. Tente novamente! \n'
+         'Escolha entre as opções: [1], [2], [3], [4]')
