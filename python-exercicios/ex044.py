@@ -37,8 +37,8 @@ elif opc == 4:
    parcelas = int(input('Quantas parcelas: '))
    # Calcula o valor das parcelas em 3x ou mais no cartão com juros de 20%
    juros = (preco * 20 / 100)
-   cartao_x3 = (preco + juros) / parcelas
+   cartao = (preco + juros) / parcelas
    valor_final = preco + (preco * 20 / 100)
    # Imprime o valor das parcelas com juros
-   print(f'Em cartão o valor será parcelado em {parcelas}x de {cartao_x3:.2f}€ com juros de 20% {juros:.2f}€ '
+   print(f'Em cartão o valor será parcelado em {parcelas}x de {cartao:.2f}€ com juros de 20% {juros:.2f}€ '
          f'valor final de {valor_final:.2f}€.')
