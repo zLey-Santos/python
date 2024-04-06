@@ -32,7 +32,7 @@ while not guessed:
     if guess == num_cpu:
         # If the guess is correct
         print(f"{colors['GREEN']} Parabéns! Você acertou o número {colors['PURPLE']}[{num_cpu}]{colors['RESET']}"
-              f"{colors['GREEN']} na sua {colors['PURPLE']}{attempts}ª{colors['RESET']} tentativa.{colors['RESET']}")
+              f"{colors['GREEN']} na sua {colors['PURPLE']}{attempts}ª{colors['RESET']}{colors['GREEN']} tentativa.{colors['RESET']}")
         guessed = True
     else:
         # If the guess is incorrect
